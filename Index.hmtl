@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Controle de Visitantes</title>
+</head>
+<body>
+  <h1>Registro de Visitantes</h1>
+  <form id="formVisitante">
+    <label>Nome Completo: <input type="text" name="nome" required></label><br>
+    <label>CPF: <input type="text" name="cpf" required></label><br>
+     <label>Número da casa: <input type="text" name="casa" required></label><br
+    <label>Placa do carro: <input type="text" name="placa"></label><br>
+     <label>Marca do carro: <input type="text" name="modelo"></label><br>
+    <label>Modelo do carro: <input type="text" name="modelo"></label><br>
+   ><br>
+    <button type="submit">Registrar</button>
+  </form>
+
+  <p id="mensagem"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
